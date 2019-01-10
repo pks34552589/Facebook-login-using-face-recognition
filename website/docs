@@ -1,0 +1,17 @@
+python manage.py runserver
+
+python manage.py migrate
+
+makemigrations ---- python manage.py makemigrations app-name
+
+sqlmigartions --- python manage.py sqlmigrations app-name app-code
+
+createadminuser --- python manage.py cretaesuperuser
+
+database commands --
+
+import table --- from app-name.models import table-name
+show table --- table-name.objects.all()
+addtotable --- a = a.table-name()     a.key1 = value1
+
+getfromtable --- table-name.objects.filter(key = value)
